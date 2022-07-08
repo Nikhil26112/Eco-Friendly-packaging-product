@@ -1,0 +1,230 @@
+/* Big tablets*/
+@media only screen and (max-width: 1530px) {
+    nav {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .container {
+        padding: 0 2rem;
+    }
+
+    .hero-text-box {
+        width: 100%;
+        margin: 0 2rem;
+    }
+
+    .long-copy {
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    footer .container {
+        padding: 40px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0 0px;
+    }
+}
+
+
+/* Small tablets to big tablets*/
+@media only screen and (max-width: 1050px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .features-text {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .section-features .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cities .icon-small {
+        font-size: 0.8rem;
+        margin-right: 0px;
+    }
+
+    .section-cities .container {
+        grid-column-gap: 10px;
+    }
+
+    .section-plans .container {
+        grid-column-gap: 10px;
+    }
+
+    .section-plans .container .plans-box div {
+        padding: 10px 5px;
+    }
+
+    .section-plans .container .plans-box .plan-price {
+        font-size: 2rem;
+    }
+
+    .section-plans .container .plans-box ul {
+        font-size: 0.7rem;
+    }
+
+    .section-plans .container .plans-box ul li i {
+        margin-right: 0px;
+    }
+
+    .section-form .container {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 80%;
+    }
+
+    footer .container {
+        padding: 40px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0 0px;
+    }
+
+    footer .container .footer-nav {
+        grid-column: 1 / span 2;
+    }
+
+    footer .container .footer-nav {
+        font-size: 0.8rem;
+    }
+
+    footer .container .social-links a {
+        font-size: 0.9rem;
+    }
+}
+
+/* Small phones to small tablets*/
+@media only screen and (max-width: 797px) {
+
+    h2 {
+        font-size: 110%;
+    }
+
+    .meals-showcase {
+        display: none;
+    }
+
+    .section-features .container {
+        grid-template-columns: 1fr;
+    }
+
+    .features-text .long-copy {
+        text-align: center;
+        margin-bottom: 55px;
+    }
+
+    .features-box {
+        position: relative;
+        margin-bottom: 0px;
+    }
+
+    .features-box .icon-big {
+        font-size: 1.3rem;
+    }
+
+    .features-box h3,
+    .features-box p,
+    .features-box .icon-big {
+        text-align: center;
+    }
+
+    .section-works .container {
+        grid-template-columns: 1fr;
+    }
+
+    .section-works .container .store-buttons {
+        text-align: center;
+    }
+
+    .steps {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iphone-logo img {
+        display: none;
+    }
+
+    .steps .work-steps p {
+        margin-top: 10px;
+    }
+
+    .section-cities .container {
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+
+    }
+
+    .section-cities .container .cities img {
+        width: 90%;
+    }
+
+    .section-cities .container .cities i,
+    .section-cities .container .cities .paragraph-text {
+        font-size: 0.8rem;
+    }
+
+    .section-testimonials .container {
+        grid-template-columns: 1fr;
+        grid-column-gap: 30px;
+        text-align: left;
+    }
+
+    .section-testimonials .container cite {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: right;
+    }
+
+    .section-testimonials .container img {
+        display: none;
+    }
+
+    .section-plans .container {
+        grid-template-columns: 1fr;
+        grid-column-gap: 40px;
+        width: 70%;
+    }
+
+    .section-plans .container .plans-box h3,
+    .section-plans .container .plans-box p {
+        text-align: center;
+    }
+
+    /* .section-plans .container .plans-box ul {} */
+
+
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+    }
+
+    footer .container {
+        padding: 40px 10px;
+    }
+}
+
+/* Small phones */
+@media only screen and (max-width: 480px) {}
