@@ -1,6 +1,8 @@
 https://lucent-cannoli-6eed34.netlify.app/index.html
 
-Here are some of the screenshots of our site..
+This is my Hackathon project which led us to come 2nd runners up in the Smart India Hackathon(SIH).
+
+Here are some of the screenshots of our site.
 
 ![Screenshot from 2023-02-07 20-53-02](https://user-images.githubusercontent.com/72178665/217287047-a3eb3c6f-dcb5-4952-a847-44f5daeb32de.png)
 ![Screenshot from 2023-02-07 20-48-34](https://user-images.githubusercontent.com/72178665/217287074-4ccc6cd7-52c5-4241-8cb0-a6feb888a610.png)
